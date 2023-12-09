@@ -1,0 +1,32 @@
+/* WeatherNavBar.css */
+.weather-navbar {
+    background-color: #007bff; /* Weather.com blue color */
+    position: relative;
+  }
+  
+  .weather-navbar .navbar-brand {
+    color: #fff; /* White text for the brand */
+  }
+  
+  .weather-navbar .nav-link,
+  .weather-navbar .nav-dropdown-item {
+    color: #fff; /* White text for the links */
+  }
+  
+  .weather-navbar .rounded-pill {
+    position: relative; /* Set relative positioning for the search bar */
+  }
+  
+  .weather-navbar .rounded-pill .form-control {
+    background-position: 10px center; /* Adjust the position as needed */
+    padding-left: 40px; /* Adjust the padding to make room for the icon */
+    border-top-left-radius: 0; /* Adjust border radius for the input field */
+    border-bottom-left-radius: 0;
+  }
+  /* NavBar.css */
+.weather-logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Add some margin to the right for spacing */
+  }
+  
